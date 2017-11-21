@@ -1,1 +1,5 @@
 
+roslaunch apriltags usb_cam_apriltags.launch
+source devel/setup.bash   
+rostopic echo /apriltags/detections
+ roslaunch usb_cam usb_cam-test.launch
